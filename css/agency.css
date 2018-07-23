@@ -425,7 +425,7 @@ header.masthead .intro-text .intro-heading {
   position: relative;
   float: right;
   width: 100%;
-  padding: 0 20px 0 100px;
+  padding: 0 20px 0 0;
   text-align: left;
 }
 
@@ -465,7 +465,7 @@ header.masthead .intro-text .intro-heading {
 
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
-  padding: 0 20px 0 100px;
+  padding: 0 20px 0 0;
   text-align: left;
 }
 
@@ -583,7 +583,7 @@ header.masthead .intro-text .intro-heading {
 .team-member img {
   width: 225px;
   height: 225px;
-  border: 7px solid #fff;
+  border: 7px solid lightgray;
 }
 
 .team-member h4 {
