@@ -512,7 +512,7 @@ header.masthead .intro-text .intro-heading {
   .timeline > li .timeline-panel {
     float: left;
     width: 41%;
-    padding: 0 20px 20px 30px;
+    padding: 0 20px 20px 0;
     text-align: right;
   }
   .timeline > li .timeline-image {
