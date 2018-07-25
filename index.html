@@ -400,7 +400,7 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Chatty App</h2>
-                  <p class="item-intro text-muted">A client-side app, built with ReactJS that communicates with a server via WebSockets for multi-user real-time updates.</p>
+                  <p class="item-intro text-muted">A client-side app that communicates with a server via WebSockets for multi-user real-time updates. Built with ReactJS, JSX, Express, Webpack, Babel, NodeJS, HTML, and CSS.</p>
                   <img class="img-fluid d-block mx-auto" src="img/projects/chatty.png" alt="chatty">
                   <p>Date: June 2018</p>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -527,7 +527,7 @@
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone" data-validation-required-message="Please enter your phone number.">
+                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
@@ -542,6 +542,9 @@
                   <div id="success"></div>
                   <br>
                   <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                  <br>
+                  <br>
+                  <p class="text-dark">* These fields are required.</p>
                 </div>
               </div>
             </form>
