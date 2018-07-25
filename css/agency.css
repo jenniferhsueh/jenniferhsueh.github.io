@@ -250,7 +250,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: #F08080(254, 209, 54, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -597,14 +597,15 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../img/map-image.png");
+  /* background-color: #212529; */
+  background-image: url("../img/vancouver.png");
   background-repeat: no-repeat;
   background-position: center;
+  opacity: 0.5;
 }
 
 section#contact .section-heading {
-  color: #fff;
+  color: black;
 }
 
 section#contact .form-group {
@@ -661,14 +662,14 @@ footer {
 }
 
 footer span.copyright {
-  font-size: 90%;
+  font-size: 80%;
   line-height: 40px;
   text-transform: none;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 footer ul.quicklinks {
-  font-size: 90%;
+  font-size: 80%;
   line-height: 40px;
   margin-bottom: 0;
   text-transform: none;

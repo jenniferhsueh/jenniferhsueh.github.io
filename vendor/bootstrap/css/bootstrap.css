@@ -479,7 +479,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 50px;
 }
 
 .img-thumbnail {
@@ -6084,7 +6084,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #008f95 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
